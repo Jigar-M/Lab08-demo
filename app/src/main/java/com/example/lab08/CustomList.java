@@ -26,9 +26,9 @@ public class CustomList {
      }
 
      // Implement after failing
-//     public int cityCount() {
-//        return cities.size();
-//     }
+     public int cityCount() {
+        return cities.size();
+     }
 
 
 }

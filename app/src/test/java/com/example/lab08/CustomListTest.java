@@ -29,4 +29,20 @@ public class CustomListTest {
 
 
     }
+
+    @Test
+    public void testCountCity() {
+        CustomList list = new CustomList();
+        City calgary = new City("Calgary", "AB");
+        City edmonton = new City("Edmonton", "AB");
+        City vancouver = new City("Vancouver", "BC");
+
+        list.addCity(calgary);
+        list.addCity(edmonton);
+        list.addCity(vancouver);
+
+        assertEquals(3, list.cityCount());
+
+    }
+
 }

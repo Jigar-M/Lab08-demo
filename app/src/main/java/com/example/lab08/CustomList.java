@@ -25,6 +25,10 @@ public class CustomList {
         return cities.contains(city);
      }
 
+     // Implement after failing
+//     public int cityCount() {
+//        return cities.size();
+//     }
 
 
 }

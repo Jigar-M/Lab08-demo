@@ -13,5 +13,7 @@ public class CustomListTest {
 
         // This will fail initially because hasCity() doesn't exist
         assertTrue(list.hasCity(calgary));
+
+
     }
 }
